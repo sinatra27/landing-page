@@ -1,0 +1,111 @@
+
+/****************************************
+/* LAYOUT
+/***************************************/
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background: white;
+}
+/* .container-all {
+    display: flex;
+    flex-direction: column;
+} */
+
+/***** NAVIGATION *****/
+header {
+    padding: 0 125px;
+    background: darkblue;
+}
+nav ul {
+    display: flex;
+    padding: 0;
+    gap: 12px;
+}
+ul {
+    list-style: none;
+}
+.logo {
+    margin-right: auto;
+}
+
+/***** HERO *****/
+main {
+    display: flex;
+    padding: 100px 125px;
+    background: darkblue;
+}
+.hero-content {
+    flex: 1;
+    padding-right: 50px;
+    text-align: left;
+    border: 2px solid lawngreen;
+}
+.hero-image {
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    background: gray;
+    border: 2px solid red;
+}
+
+/***** INFORMATION *****/
+.info-content {
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    padding: 0 200px 100px 200px;
+    gap: 25px;
+    /* border: 2px solid purple; */
+}
+.info-content div {
+    border: 2px solid green;
+}
+.info-content img {
+    width: 200px;
+    height: 500px;
+    /* object-fit: cover; */
+    margin: 0;
+    border: 4px solid cornflowerblue;
+    border-radius: 15px;               /* for rounded corners */
+}
+
+/***** QUOTE *****/
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 200px;
+    text-align: left;
+    background: lightgray;
+}
+.quote * {
+    margin: 0;
+}
+.quote h4 {
+    text-align: right;
+}
+
+/***** SIGN UP *****/
+.sign-up {
+    display: flex;
+    align-items: center;
+    margin: 75px 125px;
+    padding: 25px 75px;
+    border-radius: 5px;
+    background: cornflowerblue;
+}
+.sign-up-text {
+    flex: 2;
+    text-align: left;
+}
+
+/***** FOOTER *****/
+footer {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background: darkblue;
+}
